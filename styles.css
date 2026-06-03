@@ -78,8 +78,8 @@
     gap: 2px;
   }
   .logo-image {
-    height: 100px;
-    width: 200px
+    height: 64px;
+    width: 100px
     max-width: none;
     object-fit: contain;
     display: block;
