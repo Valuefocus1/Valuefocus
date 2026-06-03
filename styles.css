@@ -78,7 +78,7 @@
     gap: 2px;
   }
   .logo-image {
-    height: 30px;
+    height: 32px;
     width: auto
     display: block;
     transition: opacity 0.3s ease;
@@ -812,7 +812,7 @@
     .nav-links { gap: 24px; }
     .nav-links a:not(.nav-cta) { display: none; }
     .logo-image { height: 30px; }
-    .footer-brand .logo-image { height: 38px !important; }
+    .footer-brand .logo-image { height: 32px !important; }
     .problem-inner { grid-template-columns: 1fr; gap: 40px; }
     .problem-quote { position: static; }
     .approach-head, .axes-head { flex-direction: column; align-items: start; gap: 32px; margin-bottom: 56px; }
