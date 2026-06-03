@@ -85,7 +85,7 @@
   }
   /* 다크 배경(네비, 푸터)에서 로고를 흰색으로 변환 */
   .logo-image.on-dark {
-    filter: brightness(0) invert(1) brightness(0.96);
+    filter: none
     opacity: 0.92;
   }
   .logo-image.on-dark:hover {
