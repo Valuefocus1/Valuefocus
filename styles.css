@@ -78,8 +78,8 @@
     gap: 2px;
   }
   .logo-image {
-    height: 80px;
-    width: 200px;
+    height: 44px;
+    width: auto;
     display: block;
     transition: opacity 0.3s ease;
   }
