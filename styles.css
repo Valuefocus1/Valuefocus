@@ -79,6 +79,7 @@
   }
   .logo-image {
     height: 100px;
+    margin-top: -8px;
     width: 220px;
     display: block;
     transition: opacity 0.3s ease;
