@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://valuefocus.co.kr/sitemap.xml

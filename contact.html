@@ -5,9 +5,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact · Value Focus</title>
 <meta name="description" content="첫 만남은 30분 무료 진단으로 시작합니다. info@valuefocus.co.kr">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta name="keywords" content="밸류포커스 연락처, 컨설팅 상담, 무료 진단, info@valuefocus.co.kr">
+<link rel="canonical" href="https://valuefocus.co.kr/contact.html">
+
+<!-- Open Graph (페이스북·카카오톡 공유 시 표시) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="Value Focus">
+<meta property="og:url" content="https://valuefocus.co.kr/contact.html">
+<meta property="og:title" content="Contact · Value Focus">
+<meta property="og:description" content="첫 만남은 30분 무료 진단으로 시작합니다. 솔루션 제안은 진단 이후입니다. info@valuefocus.co.kr">
+<meta property="og:image" content="https://valuefocus.co.kr/logo-horizontal-large.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Contact · Value Focus">
+<meta name="twitter:description" content="첫 만남은 30분 무료 진단으로 시작합니다. 솔루션 제안은 진단 이후입니다. info@valuefocus.co.kr">
+<meta name="twitter:image" content="https://valuefocus.co.kr/logo-horizontal-large.png">
+
+<!-- JSON-LD 구조화 데이터 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "밸류포커스",
+  "alternateName": "Value Focus Co., Ltd.",
+  "url": "https://valuefocus.co.kr",
+  "logo": "https://valuefocus.co.kr/logo-horizontal-large.png",
+  "description": "운영부터 혁신까지, 사업 조직의 성장 단계마다 함께하는 부티크 컨설팅 회사",
+  "email": "info@valuefocus.co.kr",
+  "foundingDate": "2024-12-02",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "금화로 3, 202호",
+    "addressLocality": "용인시 기흥구",
+    "addressRegion": "경기도",
+    "addressCountry": "KR"
+  },
+  "sameAs": [
+    "https://valuefocus.co.kr"
+  ]
+}
+</script>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -34,9 +73,8 @@
     <div class="page-hero-label">CONTACT</div>
     <h1>첫 만남은 <em>30분 무료 진단</em>으로<br>시작합니다.</h1>
     <p class="page-hero-sub">
-      솔루션 제안은 진단 이후입니다. 30분 안에 현재 단계와 핵심 과제를 진단하고,
+      솔루션 제안은 진단 이후입니다. 30분 안에 현재 단계와 핵심 문제를 진단하고,
       우리가 도울 수 있는 영역과 도울 수 없는 영역을 솔직하게 알려드립니다.
-      아직 아이디어 단계여도 괜찮습니다.
     </p>
   </div>
 </section>
@@ -65,7 +103,7 @@
         <div class="process-num">02</div>
         <h4>무료 진단</h4>
         <div class="process-en">30분 · 화상 또는 대면</div>
-        <p>현재 창업 단계와 핵심 과제를 진단합니다. 도울 수 있는 영역을 솔직하게 안내합니다.</p>
+        <p>현재 단계와 핵심 문제를 진단합니다. 도울 수 있는 영역을 솔직하게 안내합니다.</p>
       </div>
       <div class="process-step">
         <div class="process-num">03</div>
@@ -98,25 +136,25 @@
 
     <div class="form-wrap reveal">
       <p class="form-intro">
-        몰라도 괜찮습니다. 아이디어 단계여도 괜찮습니다. 진단 미팅에서 함께 정리합니다.
+        몰라도 괜찮습니다. 진단 미팅에서 함께 정리합니다.
       </p>
 
-      <form action="https://formspree.io/f/maqzwgzq" method="POST">
+      <form action="mailto:info@valuefocus.co.kr" method="post" enctype="text/plain">
         <div class="form-row two-col">
           <div>
             <label for="name">이름 <span class="req">*</span></label>
             <input type="text" id="name" name="name" required>
           </div>
           <div>
-            <label for="company">팀명·회사명 <span class="req">*</span></label>
-            <input type="text" id="company" name="company" required placeholder="아직 없으면 '미정' 입력">
+            <label for="company">회사·소속 <span class="req">*</span></label>
+            <input type="text" id="company" name="company" required>
           </div>
         </div>
 
         <div class="form-row two-col">
           <div>
-            <label for="position">역할·직책</label>
-            <input type="text" id="position" name="position" placeholder="ex. 대표, 공동창업자">
+            <label for="position">직책</label>
+            <input type="text" id="position" name="position">
           </div>
           <div>
             <label for="contact">연락처 (이메일·전화) <span class="req">*</span></label>
@@ -126,23 +164,22 @@
 
         <div class="form-row two-col">
           <div>
-            <label for="industry">사업 분야 <span class="req">*</span></label>
+            <label for="industry">산업 분야 <span class="req">*</span></label>
             <select id="industry" name="industry" required>
               <option value="">선택해주세요</option>
-              <option>테크·SaaS·플랫폼</option>
-              <option>헬스케어·의료기기</option>
-              <option>커머스·소비재</option>
-              <option>제조·전통 산업</option>
-              <option>기타·잘 모르겠음</option>
+              <option>보험</option>
+              <option>의료기기·제약</option>
+              <option>기타 사업 조직</option>
+              <option>잘 모르겠음</option>
             </select>
           </div>
           <div>
             <label for="stage">현재 단계 <span class="req">*</span></label>
             <select id="stage" name="stage" required>
               <option value="">선택해주세요</option>
-              <option>STAGE 01 · 아이디어·사업 검증</option>
-              <option>STAGE 02 · 인큐베이팅·시장 진입</option>
-              <option>STAGE 03 · 스케일업·투자 유치</option>
+              <option>STAGE 01 · 운영 인프라</option>
+              <option>STAGE 02 · 성장 가속</option>
+              <option>STAGE 03 · 혁신·구조 변혁</option>
               <option>잘 모르겠음</option>
             </select>
           </div>
@@ -153,9 +190,9 @@
             <label for="interest">관심 영역</label>
             <select id="interest" name="interest">
               <option value="">선택해주세요 (선택)</option>
-              <option>AXIS 01 · 창업 전략 컨설팅</option>
-              <option>AXIS 02 · 인큐베이팅 &amp; 네트워크</option>
-              <option>AXIS 03 · 투자 &amp; 성장 인프라</option>
+              <option>AXIS 01 · 영업 조직 컨설팅</option>
+              <option>AXIS 02 · 다각화 & 파트너십</option>
+              <option>AXIS 03 · 솔루션 & 인프라</option>
               <option>종합 진단</option>
             </select>
           </div>
@@ -172,12 +209,12 @@
 
         <div class="form-row">
           <label for="message">문의 내용 <span class="req">*</span></label>
-          <textarea id="message" name="message" placeholder="현재 팀 상황·고민·필요한 도움을 자유롭게 적어주세요. 아이디어 단계여도 괜찮습니다." required></textarea>
+          <textarea id="message" name="message" placeholder="현재 조직 상황·고민·필요한 도움을 자유롭게 적어주세요." required></textarea>
         </div>
 
         <label class="form-consent">
           <input type="checkbox" required>
-          <span>개인정보 수집·이용에 동의합니다. (수집 항목: 이름·팀명·연락처·문의 내용. 보유 기간: 상담 완료 후 1년)</span>
+          <span>개인정보 수집·이용에 동의합니다. (수집 항목: 이름·회사·연락처·문의 내용. 보유 기간: 상담 완료 후 1년)</span>
         </label>
 
         <button type="submit" class="form-submit">
@@ -259,11 +296,11 @@
       </div>
       <div class="company-row">
         <dt>사업 영역</dt>
-        <dd>창업 컨설팅 · 인큐베이팅 · 투자 자문 · 경영 지원 인프라</dd>
+        <dd>경영 컨설팅 · 소프트웨어 개발 · 정보 매개 · 인프라 운영</dd>
       </div>
       <div class="company-row">
         <dt>영문 표기</dt>
-        <dd>Value Focus Inc.</dd>
+        <dd>Value Focus Co., Ltd.</dd>
       </div>
     </dl>
 
@@ -282,17 +319,17 @@
           <img src="logo-horizontal-large.png" alt="Value Focus" class="logo-image on-dark" style="height: 44px;">
         </a>
         <p class="footer-tagline">
-          아이디어에서 스케일업까지,<br>
-          창업 조직의<br>
-          모든 단계마다 함께
+          운영부터 혁신까지,<br>
+          사업 조직의<br>
+          성장 단계마다 함께
         </p>
       </div>
       <div class="footer-col">
         <h4>Services</h4>
         <ul>
-          <li><a href="services.html#stage-01">창업 전략 컨설팅</a></li>
-          <li><a href="services.html#stage-02">인큐베이팅 &amp; 네트워크</a></li>
-          <li><a href="services.html#stage-03">투자 &amp; 성장 인프라</a></li>
+          <li><a href="services.html#stage-01">영업 조직 컨설팅</a></li>
+          <li><a href="services.html#stage-02">사업 모델 다각화</a></li>
+          <li><a href="services.html#stage-03">솔루션 & 인프라</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -312,9 +349,9 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <div>© 2026 Value Focus Inc. · 사업자등록번호 548-81-03871</div>
+      <div>© 2026 Value Focus Co., Ltd. · 사업자등록번호 548-81-03871</div>
       <div class="footer-bottom-links">
-        <a href="#">개인정보처리방침</a>
+        <a href="privacy.html">개인정보처리방침</a>
         <a href="#">이용약관</a>
       </div>
     </div>
@@ -323,11 +360,17 @@
 
 <script>
   const nav = document.getElementById('nav');
-  window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 40); });
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 40) nav.classList.add('scrolled');
+    else nav.classList.remove('scrolled');
+  });
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
   }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 </script>
+
 </body>
 </html>
