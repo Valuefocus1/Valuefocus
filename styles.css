@@ -16,6 +16,7 @@
     --font-display: 'Fraunces', 'Noto Serif KR', serif;
     --font-display-kr: 'Noto Serif KR', 'Fraunces', serif;
     --font-sans: 'IBM Plex Sans KR', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-card: 'Pretendard Variable', Pretendard, 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-mono: 'Inter', monospace;
 
     --container: 1180px;
@@ -78,12 +79,10 @@
     gap: 2px;
   }
   .logo-image {
-    height: 36px;
+    height: 42px;
     width: auto;
     display: block;
     transition: opacity 0.3s ease;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
   }
   /* 다크 배경(네비, 푸터)에서 로고를 흰색으로 변환 */
   .logo-image.on-dark {
@@ -813,7 +812,7 @@
     .container { padding: 0 24px; }
     .nav-links { gap: 24px; }
     .nav-links a:not(.nav-cta) { display: none; }
-    .logo-image { height: 30px; }
+    .logo-image { height: 34px; }
     .footer-brand .logo-image { height: 38px !important; }
     .problem-inner { grid-template-columns: 1fr; gap: 40px; }
     .problem-quote { position: static; }
@@ -836,7 +835,7 @@
     .hero-ctas { flex-direction: column; align-items: stretch; }
     .btn { justify-content: center; }
     .nav { padding: 16px 0; }
-    .logo-image { height: 26px; }
+    .logo-image { height: 30px; }
     .container { padding: 0 20px; }
   }
   /* ===== PAGE-LEVEL ADDITIONS ===== */
@@ -1426,4 +1425,27 @@
     .form-wrap { padding: 40px 28px; }
     .form-row.two-col { grid-template-columns: 1fr; gap: 24px; }
     .company-row { grid-template-columns: 1fr; gap: 8px; }
+  }
+
+
+  /* ===== CARD TITLE TYPOGRAPHY (Pretendard Bold) ===== */
+  /* 박스 안 카드 제목들을 굵은 산세리프로 강조 */
+  .why-card h3,
+  .axis-card h3,
+  .stage h3,
+  .stage-detail-axis h4,
+  .process-step h4 {
+    font-family: var(--font-card);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.35;
+  }
+  /* 영문 카드 제목 (Field-First, Real Value 등)은 약간 더 큼직하게 */
+  .stage h3 {
+    font-size: 27px;
+  }
+  /* PHILOSOPHY 카드의 마지막 박스(이태릭 강조)는 그대로 세리프 유지 */
+  .why-card h3[style*="italic"] {
+    font-family: var(--font-display-kr);
+    font-weight: 400;
   }
